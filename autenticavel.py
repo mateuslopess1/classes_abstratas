@@ -9,7 +9,4 @@ class Autenticavel(abc.ABC):
         """
         O método deve verificar a senha e retornar um booleano
         """
-        if senha == self._senha:
-            return True
-        else:
-            return False
+        pass

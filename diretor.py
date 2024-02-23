@@ -4,3 +4,5 @@ class Diretor(Gerente):
         super().__init__(nome,cpf,s,data,senha)
     def get_bonifica(self):
         return self.get_salario()*0.4
+    def autenticar(self, senha):
+        return senha == self._senha
